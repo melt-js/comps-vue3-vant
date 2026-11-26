@@ -1,0 +1,103 @@
+{
+  "app": {
+    "name": "comps-vue3-vant",
+    "app_group_name": "comps-vue3-vant",
+    "git_repo_url": "",
+    "online_version": "2026.11.23",
+    "build_version": "2026.11.23",
+    "platform": "unpkg",
+    "create_at": "2026-11-26T06:48:29.621Z"
+  },
+  "version": {
+    "plugin_ver": "5.4.3",
+    "extract_mode": "build",
+    "sub_app_name": "comps-vue3-vant",
+    "sub_app_version": "comps-vue3-vant@2026.11.23",
+    "version_tag": "2026.11.23",
+    "src_map": {
+      "webDirPath": "/comps-vue3-vant/hel_dist",
+      "htmlIndexSrc": "/comps-vue3-vant/hel_dist/index.html",
+      "extractMode": "all",
+      "iframeSrc": "",
+      "chunkCssSrcList": [
+        "/comps-vue3-vant/hel_dist/assets/style-BfcGmqll.css"
+      ],
+      "chunkJsSrcList": [
+        "/comps-vue3-vant/hel_dist/assets/index-CkZabnm2.js",
+        "/comps-vue3-vant/hel_dist/assets/preload-helper-75t3YZFg.js",
+        "/comps-vue3-vant/hel_dist/assets/shared-runtime-BV8Oig6u.js",
+        "/comps-vue3-vant/hel_dist/assets/standalone-C0r6GXyq.js",
+        "/comps-vue3-vant/hel_dist/assets/vendor-BmaFqEDl.js"
+      ],
+      "staticCssSrcList": [],
+      "staticJsSrcList": [
+        "https://unpkg.com/vue@3.5.45/dist/vue.global.prod.js"
+      ],
+      "relativeCssSrcList": [],
+      "relativeJsSrcList": [],
+      "headAssetList": [
+        {
+          "tag": "staticScript",
+          "append": false,
+          "attrs": {
+            "src": "https://unpkg.com/vue@3.5.45/dist/vue.global.prod.js"
+          }
+        },
+        {
+          "tag": "script",
+          "append": true,
+          "attrs": {
+            "src": "/comps-vue3-vant/hel_dist/assets/index-CkZabnm2.js",
+            "type": "module",
+            "crossorigin": ""
+          }
+        },
+        {
+          "tag": "link",
+          "append": true,
+          "attrs": {
+            "href": "/comps-vue3-vant/hel_dist/assets/preload-helper-75t3YZFg.js",
+            "rel": "modulepreload",
+            "crossorigin": ""
+          }
+        },
+        {
+          "tag": "link",
+          "append": true,
+          "attrs": {
+            "href": "/comps-vue3-vant/hel_dist/assets/shared-runtime-BV8Oig6u.js",
+            "rel": "modulepreload",
+            "crossorigin": ""
+          }
+        },
+        {
+          "tag": "link",
+          "append": true,
+          "attrs": {
+            "href": "/comps-vue3-vant/hel_dist/assets/vendor-BmaFqEDl.js",
+            "rel": "modulepreload",
+            "crossorigin": ""
+          }
+        },
+        {
+          "tag": "link",
+          "append": true,
+          "attrs": {
+            "href": "/comps-vue3-vant/hel_dist/assets/style-BfcGmqll.css",
+            "rel": "stylesheet",
+            "crossorigin": ""
+          }
+        }
+      ],
+      "bodyAssetList": [],
+      "otherSrcList": [
+        "/comps-vue3-vant/hel_dist/index.html"
+      ],
+      "srvModSrcList": [],
+      "srvModSrcIndex": ""
+    },
+    "html_content": "<!doctype html>\n<!-- hel-standalone：给调试页样式做作用域，避免 hel_dist 把页面级样式注入宿主 -->\n<html lang=\"zh-CN\" class=\"hel-standalone\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>comps-vue3-vant</title>\n    <!--\n      vue 被 external 成 window.Vue，独立访问本页时由这里的 CDN 提供运行时；\n      data-helappend=\"0\"：宿主通过 hel 解析本页时跳过该脚本，\n      使用宿主自己在入口注入的那一份，避免双实例（双 vue）。\n    -->\n    <script data-helappend=\"0\" src=\"https://unpkg.com/vue@3.5.45/dist/vue.global.prod.js\"></script>\n    <script type=\"module\" crossorigin src=\"/comps-vue3-vant/hel_dist/assets/index-CkZabnm2.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-vue3-vant/hel_dist/assets/preload-helper-75t3YZFg.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-vue3-vant/hel_dist/assets/shared-runtime-BV8Oig6u.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-vue3-vant/hel_dist/assets/vendor-BmaFqEDl.js\">\n    <link rel=\"stylesheet\" crossorigin href=\"/comps-vue3-vant/hel_dist/assets/style-BfcGmqll.css\">\n  </head>\n  <body>\n    <div id=\"vant-standalone\"></div>\n  </body>\n</html>\n",
+    "create_at": "2026-11-26T06:48:29.621Z",
+    "desc": "this version meta is created by hel-dev-utils@5.4.3"
+  }
+}
